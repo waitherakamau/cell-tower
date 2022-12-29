@@ -1,0 +1,9 @@
+export const SET_ACTIVE_ACCOUNT = "setActiveAccount";
+export const UPDATE_USER_DATA = "updateUserData";
+export const UPDATE_ACCOUNT_DATA = "updateAccountData";
+export const CHANGE_NAME = "changeStateMessage";
+export const UPDATE_CHAT_DATA = "updateChatData";
+export const USE_THEME = "updateTheme";
+export const MAGNIFY_TEXT = "textZoom";
+export const SET_ACTIVE_SIDEBAR = "setActiveSidebarMenu";
+export const SET_ACTIVE_MINI_SIDEBAR = "setActiveSidebarMiniMenu";

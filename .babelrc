@@ -1,0 +1,33 @@
+{
+	"presets": [
+		[
+			"next/babel", 
+            { 
+                "preset-react": {
+                    "runtime": "automatic" 
+                } 
+            }
+		]
+	],
+	"plugins": [
+		[
+			"module-resolver",
+			{
+				"root": ["."],
+				"alias": {
+					"@styles"    : "./src/.styles",
+					"@themes"    : "./src/.styles/.themes",
+					"@services"  : "./src/services",
+					"@components": "./src/components",
+					"@config"    : "./src/.configs"
+				}
+			}
+		],
+		"babel-plugin-macros", 
+		["babel-plugin-styled-components",
+			{
+			  "ssr": true
+			}
+		]
+	]
+}
